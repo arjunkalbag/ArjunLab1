@@ -4,24 +4,101 @@
 
 #include "Particle.h"
 #line 1 "/Users/student/ArjunLab1/src/ArjunLab1.ino"
-/*
- * Project ArjunLab1
- * Description:
- * Author:
- * Date:
- */
-
-// setup() runs once, when the device is first turned on.
 void setup();
 void loop();
-#line 9 "/Users/student/ArjunLab1/src/ArjunLab1.ino"
-void setup() {
-  // Put initialization like pinMode and begin functions here.
+#line 1 "/Users/student/ArjunLab1/src/ArjunLab1.ino"
+SYSTEM_MODE(MANUAL);
+SYSTEM_THREAD(ENABLED);
 
+void setup()
+{
+
+    pinMode(D0, OUTPUT);
+    pinMode(D1, OUTPUT);
+    pinMode(D3, OUTPUT);
+    pinMode(D5, OUTPUT);
+    pinMode(D7, OUTPUT);
+    pinMode(D8, OUTPUT);
 }
 
-// loop() runs over and over again, as quickly as it can execute.
-void loop() {
-  // The core of your code will likely live here.
+void loop()
+{
 
+    digitalWrite(D0, HIGH);
+    digitalWrite(D1, LOW);
+    digitalWrite(D3, LOW);
+    digitalWrite(D5, LOW);
+    digitalWrite(D7, LOW);
+    digitalWrite(D8, LOW);
+    delay(100);
+    digitalWrite(D0, LOW);
+    digitalWrite(D1, HIGH);
+    digitalWrite(D3, LOW);
+    digitalWrite(D5, LOW);
+    digitalWrite(D7, LOW);
+    digitalWrite(D8, LOW);
+    delay(100);
+    digitalWrite(D0, LOW);
+    digitalWrite(D1, LOW);
+    digitalWrite(D3, HIGH);
+    digitalWrite(D5, LOW);
+    digitalWrite(D7, LOW);
+    digitalWrite(D8, LOW);
+    delay(100);
+    digitalWrite(D0, LOW);
+    digitalWrite(D1, LOW);
+    digitalWrite(D3, LOW);
+    digitalWrite(D5, HIGH);
+    digitalWrite(D7, LOW);
+    digitalWrite(D8, LOW);
+    delay(100);
+    digitalWrite(D0, LOW);
+    digitalWrite(D1, LOW);
+    digitalWrite(D3, LOW);
+    digitalWrite(D5, LOW);
+    digitalWrite(D7, HIGH);
+    digitalWrite(D8, LOW);
+    delay(100);
+    digitalWrite(D0, LOW);
+    digitalWrite(D1, LOW);
+    digitalWrite(D3, LOW);
+    digitalWrite(D5, LOW);
+    digitalWrite(D7, LOW);
+    digitalWrite(D8, HIGH);
+    delay(100);
+    digitalWrite(D0, LOW);
+    digitalWrite(D1, LOW);
+    digitalWrite(D3, LOW);
+    digitalWrite(D5, LOW);
+    digitalWrite(D7, HIGH);
+    digitalWrite(D8, LOW);
+    delay(100);
+    digitalWrite(D0, LOW);
+    digitalWrite(D1, LOW);
+    digitalWrite(D3, LOW);
+    digitalWrite(D5, HIGH);
+    digitalWrite(D7, LOW);
+    digitalWrite(D8, LOW);
+    delay(100);
+    digitalWrite(D0, LOW);
+    digitalWrite(D1, LOW);
+    digitalWrite(D3, HIGH);
+    digitalWrite(D5, LOW);
+    digitalWrite(D7, LOW);
+    digitalWrite(D8, LOW);
+    delay(100);
+    digitalWrite(D0, LOW);
+    digitalWrite(D1, HIGH);
+    digitalWrite(D3, LOW);
+    digitalWrite(D5, LOW);
+    digitalWrite(D7, LOW);
+    digitalWrite(D8, LOW);
+    delay(100);
+    digitalWrite(D0, HIGH);
+    digitalWrite(D1, LOW);
+    digitalWrite(D3, LOW);
+    digitalWrite(D5, LOW);
+    digitalWrite(D7, LOW);
+    digitalWrite(D8, LOW);
+    delay(1);
 }
