@@ -10,6 +10,7 @@ void setup()
     pinMode(D5, OUTPUT);
     pinMode(D7, OUTPUT);
     pinMode(D8, OUTPUT);
+
 }
 
 void loop()
@@ -21,6 +22,7 @@ void loop()
     digitalWrite(D5, LOW);
     digitalWrite(D7, LOW);
     digitalWrite(D8, LOW);
+
     delay(100);
     digitalWrite(D0, LOW);
     digitalWrite(D1, HIGH);
@@ -28,6 +30,7 @@ void loop()
     digitalWrite(D5, LOW);
     digitalWrite(D7, LOW);
     digitalWrite(D8, LOW);
+
     delay(100);
     digitalWrite(D0, LOW);
     digitalWrite(D1, LOW);
@@ -35,6 +38,7 @@ void loop()
     digitalWrite(D5, LOW);
     digitalWrite(D7, LOW);
     digitalWrite(D8, LOW);
+
     delay(100);
     digitalWrite(D0, LOW);
     digitalWrite(D1, LOW);
@@ -42,6 +46,7 @@ void loop()
     digitalWrite(D5, HIGH);
     digitalWrite(D7, LOW);
     digitalWrite(D8, LOW);
+
     delay(100);
     digitalWrite(D0, LOW);
     digitalWrite(D1, LOW);
@@ -56,6 +61,7 @@ void loop()
     digitalWrite(D5, LOW);
     digitalWrite(D7, LOW);
     digitalWrite(D8, HIGH);
+
     delay(100);
     digitalWrite(D0, LOW);
     digitalWrite(D1, LOW);
@@ -63,6 +69,7 @@ void loop()
     digitalWrite(D5, LOW);
     digitalWrite(D7, HIGH);
     digitalWrite(D8, LOW);
+
     delay(100);
     digitalWrite(D0, LOW);
     digitalWrite(D1, LOW);
@@ -70,6 +77,7 @@ void loop()
     digitalWrite(D5, HIGH);
     digitalWrite(D7, LOW);
     digitalWrite(D8, LOW);
+
     delay(100);
     digitalWrite(D0, LOW);
     digitalWrite(D1, LOW);
@@ -77,6 +85,7 @@ void loop()
     digitalWrite(D5, LOW);
     digitalWrite(D7, LOW);
     digitalWrite(D8, LOW);
+
     delay(100);
     digitalWrite(D0, LOW);
     digitalWrite(D1, HIGH);
@@ -84,6 +93,7 @@ void loop()
     digitalWrite(D5, LOW);
     digitalWrite(D7, LOW);
     digitalWrite(D8, LOW);
+
     delay(100);
     digitalWrite(D0, HIGH);
     digitalWrite(D1, LOW);
@@ -91,5 +101,6 @@ void loop()
     digitalWrite(D5, LOW);
     digitalWrite(D7, LOW);
     digitalWrite(D8, LOW);
+
     delay(1);
 }

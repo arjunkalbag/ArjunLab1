@@ -210,6 +210,7 @@ void setup()
    b40de:	2007      	movs	r0, #7
    b40e0:	f000 ff20 	bl	b4f24 <pinMode>
     pinMode(D8, OUTPUT);
+
 }
    b40e4:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
     pinMode(D8, OUTPUT);
@@ -247,6 +248,7 @@ void loop()
    b411a:	2100      	movs	r1, #0
    b411c:	2008      	movs	r0, #8
    b411e:	f000 ff12 	bl	b4f46 <digitalWrite>
+
     delay(100);
    b4122:	2064      	movs	r0, #100	; 0x64
    b4124:	f000 fad8 	bl	b46d8 <delay>
@@ -274,6 +276,7 @@ void loop()
    b4150:	2100      	movs	r1, #0
    b4152:	2008      	movs	r0, #8
    b4154:	f000 fef7 	bl	b4f46 <digitalWrite>
+
     delay(100);
    b4158:	2064      	movs	r0, #100	; 0x64
    b415a:	f000 fabd 	bl	b46d8 <delay>
@@ -301,6 +304,7 @@ void loop()
    b4186:	2100      	movs	r1, #0
    b4188:	2008      	movs	r0, #8
    b418a:	f000 fedc 	bl	b4f46 <digitalWrite>
+
     delay(100);
    b418e:	2064      	movs	r0, #100	; 0x64
    b4190:	f000 faa2 	bl	b46d8 <delay>
@@ -328,6 +332,7 @@ void loop()
    b41bc:	2100      	movs	r1, #0
    b41be:	2008      	movs	r0, #8
    b41c0:	f000 fec1 	bl	b4f46 <digitalWrite>
+
     delay(100);
    b41c4:	2064      	movs	r0, #100	; 0x64
    b41c6:	f000 fa87 	bl	b46d8 <delay>
@@ -382,6 +387,7 @@ void loop()
    b4228:	2101      	movs	r1, #1
    b422a:	2008      	movs	r0, #8
    b422c:	f000 fe8b 	bl	b4f46 <digitalWrite>
+
     delay(100);
    b4230:	2064      	movs	r0, #100	; 0x64
    b4232:	f000 fa51 	bl	b46d8 <delay>
@@ -409,6 +415,7 @@ void loop()
    b425e:	2100      	movs	r1, #0
    b4260:	2008      	movs	r0, #8
    b4262:	f000 fe70 	bl	b4f46 <digitalWrite>
+
     delay(100);
    b4266:	2064      	movs	r0, #100	; 0x64
    b4268:	f000 fa36 	bl	b46d8 <delay>
@@ -436,6 +443,7 @@ void loop()
    b4294:	2100      	movs	r1, #0
    b4296:	2008      	movs	r0, #8
    b4298:	f000 fe55 	bl	b4f46 <digitalWrite>
+
     delay(100);
    b429c:	2064      	movs	r0, #100	; 0x64
    b429e:	f000 fa1b 	bl	b46d8 <delay>
@@ -463,6 +471,7 @@ void loop()
    b42ca:	2100      	movs	r1, #0
    b42cc:	2008      	movs	r0, #8
    b42ce:	f000 fe3a 	bl	b4f46 <digitalWrite>
+
     delay(100);
    b42d2:	2064      	movs	r0, #100	; 0x64
    b42d4:	f000 fa00 	bl	b46d8 <delay>
@@ -490,6 +499,7 @@ void loop()
    b4300:	2100      	movs	r1, #0
    b4302:	2008      	movs	r0, #8
    b4304:	f000 fe1f 	bl	b4f46 <digitalWrite>
+
     delay(100);
    b4308:	2064      	movs	r0, #100	; 0x64
    b430a:	f000 f9e5 	bl	b46d8 <delay>
@@ -517,6 +527,7 @@ void loop()
    b4336:	2008      	movs	r0, #8
    b4338:	2100      	movs	r1, #0
    b433a:	f000 fe04 	bl	b4f46 <digitalWrite>
+
     delay(1);
    b433e:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
     delay(1);
